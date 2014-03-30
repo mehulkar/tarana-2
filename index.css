@@ -1,0 +1,37 @@
+body {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+.main {
+  margin: 300px auto 0;
+  width: 500px;
+  text-align:center;
+}
+note, line, vertical {
+  background-color: #333;
+  display:block;
+  position:relative;
+  margin: 0 auto;
+}
+
+note {
+  width: 10px;
+  height: 8px;
+  left: 75px;
+  border-radius: 50%;
+  border: solid 3px #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+line {
+  width: 200px;
+  height: 2px;
+  margin-bottom: 10px;
+  bottom: 28px;
+}
+vertical {
+  width: 2px;
+  height: 40px;
+  left: 82px;
+  bottom: 92px;
+}
