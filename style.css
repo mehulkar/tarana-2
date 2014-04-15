@@ -20,6 +20,7 @@ h1 {
   color: #DE9443;
   font-weight: 400;
   font-size: 4em;
+  margin-bottom: 93px;
 }
 
 h2, h3 {
@@ -65,30 +66,6 @@ sheet {
 
 @media only screen and (max-device-width: 480px) {
   #main {
-    font-size: 1.5em;
-    margin-top: 400px;
+    margin-top: 500px
   }
-  h1 { font-family: 'Helvetica Neue'; }
-  section { margin-bottom: 50px; }
 }
-
-
-/*sheet:after {
-  position: absolute;
-  width: auto;
-  height: 50px;
-  z-index: 9999;
-  content: '';
-  display: block;
-  pointer-events: none;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: url(/image.php?height=30) repeat top left;
-}*/
-
-/*sheet:active:after {
-  display: none;
-}
-*/
