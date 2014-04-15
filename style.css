@@ -19,8 +19,9 @@ h1 {
   font-family: 'Josefin Slab', serif;
   color: #DE9443;
   font-weight: 400;
-  font-size: 4em;
-  margin-bottom: 93px;
+  font-size: 5em;
+  margin-bottom: 85px;
+  margin-top: 50px;
 }
 
 h2, h3 {
