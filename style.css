@@ -1,5 +1,8 @@
 * {
   -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #3b1c2b;
@@ -22,6 +25,17 @@ h1 {
   font-size: 5em;
   margin-bottom: 85px;
   margin-top: 50px;
+}
+/*
+  hack for firefox margin-bottom
+  this should be fixed a different way
+  but doing this as a hack for now
+  shame.css
+*/
+@-moz-document url-prefix() {
+  h1 {
+    margin-bottom: 67px;
+  }
 }
 
 h2, h3 {
