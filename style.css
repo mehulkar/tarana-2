@@ -1,0 +1,44 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+#main {
+  width: 80%;
+  max-width: 80%;
+  margin: 250px auto;
+  text-align: center;
+}
+h1 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  font-size: 3em;
+}
+body {
+  font-size: 1em;
+  font-family: 'Merriweather', serif;
+}
+.muted {
+  color: #aaa;
+}
+.small {
+  font-size: 0.8em;
+}
+.top {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #main {
+    font-size: 1.5em;
+    margin-top: 400px;
+  }
+  .top {
+    margin-bottom: 200px;
+  }
+  h1 {
+    font-family: 'Helvetica Neue';
+  }
+  section {
+    margin-bottom: 50px;
+  }
+}
