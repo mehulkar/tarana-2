@@ -14,7 +14,7 @@ body {
 
 #main {
   width: 768px;
-  margin: 250px auto;
+  margin: 200px auto;
   position: relative;
 }
 
@@ -81,6 +81,6 @@ sheet {
 
 @media only screen and (max-device-width: 480px) {
   #main {
-    margin-top: 500px
+    margin-top: 300px
   }
 }
