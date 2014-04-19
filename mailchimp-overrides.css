@@ -18,3 +18,15 @@
     margin-top: 50px;
   }
 }
+
+#mc_embed_signup > form > * {
+	width: auto !important;
+}
+
+#mce-responses div.response {
+	width: auto;
+}
+
+#mc_embed_signup #mce-error-response {
+	color: red;
+}
